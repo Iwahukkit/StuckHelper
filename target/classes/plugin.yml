@@ -1,0 +1,17 @@
+name: StuckHelper
+version: 1.0
+main: me.iwahu.stuckhelper.StuckHelper
+commands:
+  stuck:
+    description: Stuck command
+    usage: /stuck
+
+  author:
+      description: Look who made this plugin
+      usage: /author
+
+  stuckreload:
+      description: Reloads the StuckHelper plugin
+      usage: /stuckreload
+      permission: stuckhelper.reload
+      permission-message: "&8[&c!&8]&c You don't have permissions to execute this command!"
