@@ -22,11 +22,11 @@ public final class StuckCommand implements CommandExecutor {
         // stuck reload
         if (args.length > 0 && args[0].equalsIgnoreCase("reload")) {
             if (!sender.hasPermission("stuckhelper.reload")) {
-                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cBu komutu kullanmak için yetkin yok!"));
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cYou don't have permission to use this command!"));
                 return true;
             }
 
-            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&aStuckHelper&8]&a Eklenti başarıyla yeniden yüklendi!"));
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&aStuckHelper&8]&a Plugin reloaded successfully!"));
             return true;
         }
 

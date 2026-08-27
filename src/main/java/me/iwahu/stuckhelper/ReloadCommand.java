@@ -10,11 +10,11 @@ public final class ReloadCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (!sender.hasPermission("stuckhelper.reload")) {
-            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cBu komutu kullanmak için yetkin yok!"));
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cYou don't have permission to use this command!"));
             return true;
         }
 
-        sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&aStuckHelper&8]&a Eklenti başarıyla yeniden yüklendi!"));
+        sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&aStuckHelper&8]&a Plugin reloaded successfully!"));
         return true;
     }
 }
