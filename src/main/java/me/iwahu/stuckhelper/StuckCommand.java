@@ -19,18 +19,7 @@ public final class StuckCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        // stuck reload
-        if (args.length > 0 && args[0].equalsIgnoreCase("reload")) {
-            if (!sender.hasPermission("stuckhelper.reload")) {
-                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&cYou don't have permission to use this command!"));
-                return true;
-            }
-
-            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&aStuckHelper&8]&a Plugin reloaded successfully!"));
-            return true;
-        }
-
-        // stuck command
+        // Sadece oyuncular kullanabilir
         if (!(sender instanceof Player)) {
             sender.sendMessage("Only players can use this command!");
             return true;
@@ -38,8 +27,7 @@ public final class StuckCommand implements CommandExecutor {
 
         Player player = (Player) sender;
         UUID uuid = player.getUniqueId();
-        int cooldownTime = 30;
-        int delayTime = 3;
+        int delayTime = 3; // Bekleme süresi (saniye)
 
         player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&e!&8]&e Unstuck started. Don't move for " + delayTime + "s!"));
         Location startLoc = player.getLocation().clone();
@@ -56,6 +44,7 @@ public final class StuckCommand implements CommandExecutor {
                     return;
                 }
 
+                // Oyuncu hareket etti mi kontrolü
                 if (player.getLocation().getWorld() != startLoc.getWorld() ||
                         player.getLocation().distanceSquared(startLoc) > 0.25) {
                     player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&c[!] Canceled because you moved!"));
