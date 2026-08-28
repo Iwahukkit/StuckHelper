@@ -2,7 +2,7 @@
 # StuckHelper
 A lightweight and simple plugin that helps players get unstuck easily with a secure countdown and anti-movement check.
 
-## Features
+## ✨ Features
 
 Safe Unstuck Countdown: Players must stand still for a customizable duration to use the command safely.
 
@@ -14,12 +14,11 @@ Lightweight: Optimized performance with zero lag.
 
 ## ⚙️ Commands & Permissions
 
-Command / Permissions
 /stuck Starts the unstuck countdown for players. Default (Everyone)
 /author Shows the author of the plugin. Default (Everyone)
 /stuckreload Reloads the plugin configuration. stuckhelper.reload
 
-## Installation
+## 💾 Installation
 
 Download the .jar file from the releases.
 
