@@ -8,7 +8,7 @@
 
 A lightweight and simple plugin that helps players get unstuck easily with a secure countdown and anti-movement check.
 
-## ✨ Features
+![FEATURES](https://raw.githubusercontent.com/Iwahukkit/StuckHelper/refs/heads/main/features.png)
 
 Safe Unstuck Countdown: Players must stand still for a customizable duration to use the command safely.
 
@@ -18,7 +18,7 @@ Highest Block Teleport: Safely teleports players to the highest safe block at th
 
 Lightweight: Optimized performance with zero lag.
 
-## ⚙️ Commands & Permissions
+![FEATURES](https://raw.githubusercontent.com/Iwahukkit/StuckHelper/refs/heads/main/commands.png)
 
 /stuck Starts the unstuck countdown for players. Default (Everyone)
 /author Shows the author of the plugin. Default (Everyone)
