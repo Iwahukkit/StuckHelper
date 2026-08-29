@@ -1,6 +1,9 @@
 ![LOGO](https://raw.githubusercontent.com/Iwahukkit/StuckHelper/refs/heads/main/bruh.png)
+
 ![CRAFTBUKKIT](https://img.shields.io/badge/CraftBukkit-1.8x-ea7233)
 ![LICENSE](https://img.shields.io/badge/License-AGPLv3.0-blue)
+![JAVA](https://img.shields.io/badge/Java-1.8-blue)
+![STARS](https://img.shields.io/github/stars/Iwahukkit/StuckHelper)
 
 
 A lightweight and simple plugin that helps players get unstuck easily with a secure countdown and anti-movement check.
