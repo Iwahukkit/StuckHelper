@@ -26,10 +26,10 @@ Lightweight: Optimized performance with zero lag.
 
 ![INSTALLATION](https://raw.githubusercontent.com/Iwahukkit/StuckHelper/refs/heads/main/installation.png)
 
-Download the .jar file from the releases.
+- Download the .jar file from the releases.
 
-Drop it into your server's plugins folder.
+- Drop it into your server's plugins folder.
 
-Restart or reload your server.
+- Restart or reload your server.
 
-Enjoy!
+- Enjoy!
