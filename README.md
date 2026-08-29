@@ -7,6 +7,7 @@
 ![JAVA](https://img.shields.io/badge/Java-1.8-blue)
 ![STARS](https://img.shields.io/github/stars/Iwahukkit/StuckHelper)
 ![BukkitDevD](https://img.shields.io/curseforge/dt/1671030?label=Bukkit%20Downloads&style=flat&color=blue)
+</div>
 
   A lightweight and simple plugin that helps players get unstuck easily with a secure countdown and anti-movement check.
 
