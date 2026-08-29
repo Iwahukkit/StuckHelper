@@ -24,7 +24,7 @@ Lightweight: Optimized performance with zero lag.
 /author Shows the author of the plugin. Default (Everyone)
 /stuckreload Reloads the plugin configuration. stuckhelper.reload
 
-## 💾 Installation
+![INSTALLATION](https://raw.githubusercontent.com/Iwahukkit/StuckHelper/refs/heads/main/installation.png)
 
 Download the .jar file from the releases.
 
