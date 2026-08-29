@@ -1,5 +1,5 @@
+![LOGO](https://raw.githubusercontent.com/Iwahukkit/StuckHelper/refs/heads/main/bruh.png)
 
-# StuckHelper
 A lightweight and simple plugin that helps players get unstuck easily with a secure countdown and anti-movement check.
 
 ## ✨ Features
