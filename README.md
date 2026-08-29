@@ -1,6 +1,5 @@
 ![LOGO](https://raw.githubusercontent.com/Iwahukkit/StuckHelper/refs/heads/main/bruh.png)
 
-![TEST](https://img.shields.io/badge/CraftBukkit-1.8x-ea7233?logo=data:image/svg+xml;base64,aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0l3YWh1a2tpdC9TdHVja0hlbHBlci9yZWZzL2hlYWRzL21haW4vYnVra2l0JTIwKDEpLnN2Zw==)
 ![CRAFTBUKKIT](https://img.shields.io/badge/CraftBukkit-1.8x-ea7233)
 ![LICENSE](https://img.shields.io/badge/License-AGPLv3.0-blue)
 ![JAVA](https://img.shields.io/badge/Java-1.8-blue)
