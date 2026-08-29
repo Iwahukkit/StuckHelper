@@ -1,3 +1,4 @@
+<div align="center">
 ![LOGO](https://raw.githubusercontent.com/Iwahukkit/StuckHelper/refs/heads/main/bruh.png)
 
 ![CRAFTBUKKIT](https://img.shields.io/badge/CraftBukkit-1.8x-ea7233)
