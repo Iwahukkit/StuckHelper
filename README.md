@@ -6,7 +6,7 @@
 [![LICENSE](https://img.shields.io/badge/License-AGPLv3.0-blue)](https://github.com/Iwahukkit/StuckHelper/blob/main/LICENSE)
 [![JAVA](https://img.shields.io/badge/Java-1.8-blue)](https://www.java.com/tr/)
 [![STARS](https://img.shields.io/github/stars/Iwahukkit/StuckHelper)](https://github.com/Iwahukkit/StuckHelper/)
-[![BukkitDevD](https://img.shields.io/curseforge/dt/1671030?label=Bukkit%20Downloads&style=flat&color=blue)](https://www.curseforge.com/minecraft/bukkit-plugins/stuckhelper)
+[![BukkitDevD](https://img.shields.io/curseforge/dt/1671030?label=Bukkit%20Downloads&style=flat&color=blue)](https://dev.bukkit.org/projects/stuckhelper)
 </div>
 
   A lightweight and simple plugin that helps players get unstuck easily with a secure countdown and anti-movement check.
